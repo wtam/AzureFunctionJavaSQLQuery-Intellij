@@ -1,0 +1,1 @@
+# AzureFunctionJavaSQLQuery-Intellij
