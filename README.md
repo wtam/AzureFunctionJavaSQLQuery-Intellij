@@ -18,6 +18,7 @@ For training purpose on how to develop Azure Function to query Azure SQL using J
 
 # Add the code
 - Paste the Fuction.java code in this repository to your Java Funtion project's Function.java
+- update the Azure SQL: server, db, user and password
 - add below SQL JDBC driver dependency to pom.xml
            <dependency>
                <groupId>com.microsoft.sqlserver</groupId>
