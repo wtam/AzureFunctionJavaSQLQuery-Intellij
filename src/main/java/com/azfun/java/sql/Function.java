@@ -49,10 +49,10 @@ public class Function {
         }
 
         // Connect to database
-        String hostName = "azuresqlhkdemo.database.windows.net"; // update me
-        String dbName = "sqlDemoDB2"; // update me
-        String user = "wtam"; // update me
-        String password = "Wdam1234!!!!"; // update me
+        String hostName = "SQL Server name"; // update me
+        String dbName = "DB name"; // update me
+        String user = "user"; // update me
+        String password = "password"; // update me
         String url = String.format("jdbc:sqlserver://%s:1433;database=%s;user=%s;password=%s;encrypt=true;"
                 + "hostNameInCertificate=*.database.windows.net;loginTimeout=30;", hostName, dbName, user, password);
         Connection connection = null;
