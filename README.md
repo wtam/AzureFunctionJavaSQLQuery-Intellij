@@ -14,7 +14,7 @@ For training purpose on how to develop Azure Function to query Azure SQL using J
 	
         ArtifactId: azure-functions-archetype
 	
-        Version: 1.22 or latest
+        Version: 1.22 or latest: https://mvnrepository.com/artifact/com.microsoft.azure/azure-functions-archetype
         
 	
         GroupId: e.g. com.azfun.java.sql
