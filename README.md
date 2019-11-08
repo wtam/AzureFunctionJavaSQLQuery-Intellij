@@ -9,10 +9,14 @@ For training purpose on how to develop Azure Function to query Azure SQL using J
  - https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-maven-intellij#create-a-functions-project
  - create a new project
         select maven and add Archetype:
+	
         GroupId: com.microsoft.azure
+	
         ArtifactId: azure-functions-archetype
+	
         Version: 1.22 or latest
         
+	
         GroupId: e.g. com.azfun.java.sql
         ArtifactId: e.g. AzFunJavaSQL
 
