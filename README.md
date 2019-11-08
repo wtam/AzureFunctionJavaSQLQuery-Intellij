@@ -19,7 +19,7 @@ For training purpose on how to develop Azure Function to query Azure SQL using J
 
 # Add the code
 - Paste the Fuction.java code in this repository to your Java Funtion project's Function.java
-- update the Azure SQL: server, db, user and password
+- update the Azure SQL: server, db in java code but add the db_user and db_password env var in the local.settings.json
 - add below SQL JDBC driver dependency to pom.xml
 
            <dependency>
@@ -39,5 +39,9 @@ For training purpose on how to develop Azure Function to query Azure SQL using J
     
 # Deploy to Azure
 https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-maven-intellij#deploy-the-function-to-azure
+modify the resource group etc on if not like the default pom.xml
+
+After deoloy to Azure.  Add the db_user, db_password env variavle in the function configuration's Application Setting.
+To use KeyVault, turn on the function's managed identity and grant the access from KeyVault by adding the managed idenitiry(objectID) and point the env var vaule to the keyvault'uri e.g. db_password and vaule = @Microsoft.KeyVault(SecretUri=keyVault's db_password uri)
   
 
