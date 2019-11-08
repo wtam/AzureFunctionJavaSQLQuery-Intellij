@@ -42,6 +42,7 @@ https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-maven-in
 modify the resource group etc on if not like the default pom.xml
 
 After deoloy to Azure.  Add the db_user, db_password env variavle in the function configuration's Application Setting.
+
 To use KeyVault, turn on the function's managed identity and grant the access from KeyVault by adding the managed idenitiry(objectID) and point the env var vaule to the keyvault'uri e.g. db_password and vaule = @Microsoft.KeyVault(SecretUri=keyVault's db_password uri)
   
 
