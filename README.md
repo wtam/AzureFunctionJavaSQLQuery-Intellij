@@ -3,7 +3,9 @@ For training purpose on how to develop Azure Function to query Azure SQL using J
 
 # Prerequisites : 
 	- https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-maven-intellij#set-up-your-development-environment
-	- Creat Azure SQL with sample DB: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-single-database-get-started?tabs=azure-portal
+	- Create Azure SQL with sample DB: https://docs.microsoft.com/en-us/azure/sql-database/sql-database-single-database-get-started?tabs=azure-portal
+	- (Optional) Create a KeyVault and store the db_username and db_passowrd as secrets :https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-key-vault-manage-portal?view=azs-1908#create-a-secret
+	
   
 # Create a defalut-template Java Function using Intellij
  - https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-maven-intellij#create-a-functions-project
